@@ -48,6 +48,9 @@
           border-radius: 5px;
           cursor: auto;
         }
+        &.disable {
+          opacity: 0.5;
+        }
       }
     }
   }
