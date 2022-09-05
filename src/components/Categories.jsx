@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Categories({ items, onClick }) {
+export default function Categories({ items }) {
   const [activeItem, setActiveItem] = React.useState(0);
 
   return (
